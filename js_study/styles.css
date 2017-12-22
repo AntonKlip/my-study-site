@@ -1,0 +1,58 @@
+.rangeinput{/* 
+	size: 10; */
+}
+#rangeblock {
+	width: 300px;
+	height: 100px;
+	background: #a9a9;
+	border-radius: 25px;
+}
+#radioresult,
+#radiodiv{
+	display: inline-block;
+}
+li{
+	list-style: none;
+	text-decoration: none;
+	min-width: 10px;
+	min-height: 10px;
+}
+.submenu{
+	display: none;
+	position: relative;
+	left: 20px;
+	border: 1px solid grey;
+	margin-bottom: -1px;
+}
+.menubig{
+	position: absolute;
+	display: block;
+	z-index: 10;
+}
+.menu:hover > .submenu{
+	display: block;
+	position: relative;
+	background-color: white;
+	z-index: 10;
+}
+.menu:hover .submenu:hover .submenu{
+	display: block;
+	background-color: white;
+	z-index: 10;
+}
+.tabs,
+.tab{
+	position: relative;
+	top: 55px;
+	display:inline-block;
+}
+.tabcontent{
+	position: absolute;
+	top:75px;
+	width: 150px;
+	height: 80px;
+	border: 1px solid black;
+	margin-top: 5px;
+	display: none;
+	z-index: 5;
+}
